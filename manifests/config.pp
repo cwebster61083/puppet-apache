@@ -6,6 +6,6 @@
 #   include apache::config
 class apache::config {
   file { $apache::config_path :
-    ensure => 'present',
+    ensure => 'directory',
   }
 }
