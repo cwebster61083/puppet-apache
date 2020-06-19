@@ -9,4 +9,4 @@ class apache::install {
     ensure => 'present',
   }
 }
-  
+
